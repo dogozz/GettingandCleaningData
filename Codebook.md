@@ -14,7 +14,7 @@ https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Datas
 To create the new data set were extracted only the measurements on the mean and standard deviation for each measurement listed on the "features.txt" provided in the original dataset, the extracted measures are:
 
 | | ||
-|:----                                |:---                             |:  ---                          |
+|:--------------------------------|:---------------------------- |:--------------------------  |
 | [1] "tBodyAcc-mean()-X"         |"tBodyAcc-mean()-Y"           |"tBodyAcc-mean()-Z"          |
 | [4] "tBodyAcc-std()-X"          |"tBodyAcc-std()-Y"            |"tBodyAcc-std()-Z"           |
 |[7] "tGravityAcc-mean()-X"       |"tGravityAcc-mean()-Y"        |"tGravityAcc-mean()-Z"       |       
@@ -37,6 +37,7 @@ To create the new data set were extracted only the measurements on the mean and 
 |[58] "fBodyGyro-std()-Z"         |"fBodyAccMag-mean()"          |"fBodyAccMag-std()"          |  
 |[61] "fBodyBodyAccJerkMag-mean()"|"fBodyBodyAccJerkMag-std()"   |"fBodyBodyGyroMag-mean()"    |   
 |[64] "fBodyBodyGyroMag-std()"    |"fBodyBodyGyroJerkMag-mean()" |"fBodyBodyGyroJerkMag-std()" |
+
 
 ## Activity (new_data)
 Descriptive activity names provided by 'activity_labels.txt' were used to link the class labels with their activitity name in the new data set.
